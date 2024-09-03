@@ -1,0 +1,10 @@
+<view>hello</view>
+<text>呵呵</text>
+<text class="{{title}}" bindtap='fn'>{{msg}}</text>
+<view wx:for="{{arr}}" wx:key="index">{{item}}</view>
+<!-- item在小程序中是個關鍵字 -->
+<!-- block標籤和vue的template一樣 -->
+<view wx:if="{{!true}}">{{msg}}</view>
+<view wx:else>{{'你好'}}</view>
+<view hidden="{{true}}">啊</view>
+<!-- vue的v-show -->

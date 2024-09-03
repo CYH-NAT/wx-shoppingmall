@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/category/index",
+    "pages/cart/index",
+    "pages/me/index",
+    "pages/list/index",
+    "pages/detail/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "京南",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#959394",
+    "selectedColor": "#e93b3d",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+      "text":"首頁",
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home-hl.png",
+      "pagePath":"pages/home/index"
+      },
+      {
+        "text":"分類",
+        "iconPath": "image/category.png",
+        "selectedIconPath": "image/category-hl.png",
+        "pagePath":"pages/category/index"
+      },
+      {
+        "text":"購物車",
+        "iconPath": "image/cart.png",
+        "selectedIconPath": "image/cart-hl.png",
+        "pagePath":"pages/cart/index"
+        },
+        {
+          "text":"我的",
+          "iconPath": "image/me.png",
+          "selectedIconPath": "image/me-hl.png",
+          "pagePath":"pages/me/index"
+        }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
